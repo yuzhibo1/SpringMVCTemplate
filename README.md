@@ -21,5 +21,5 @@ mvn install:install-file -Dfile=docs/jar/excel-1.1.1-SNAPSHOT.jar  -DgroupId=exc
 
 >jar项目维护在gitlab.haomo-studio.com上的excel-jar的项目 
 
->使用请看的demo请看：web/src/main/test/com/haomostudio/milk/test/Test.java
+>使用请看的demo请看：web/src/main/test/com/haomostudio/SpringMVCTemplate/test/Test.java
 
