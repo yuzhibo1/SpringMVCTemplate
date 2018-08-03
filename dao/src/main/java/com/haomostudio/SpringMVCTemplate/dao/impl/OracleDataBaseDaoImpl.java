@@ -85,7 +85,7 @@ public class OracleDataBaseDaoImpl implements DataBaseDao {
         }
     }
 
-
+    @Override
     public int insert(String tableNamePrefix, String tableName, Map<String, Object> map) {
         try {
             String sql = "INSERT INTO " + DataBaseOperationUtils.getOracleTableName(tableNamePrefix, tableName) + " "
